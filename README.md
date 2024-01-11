@@ -4,7 +4,10 @@
 
 ![plan](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/a4a76e75-947b-4c3b-a54a-8a9ceaa24829)
 
-******* TEST RESULTS *********
+******* MANUEL TEST RESULTS *********
 
-![ss](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/fe33e245-6272-4aed-b939-8e0eff7cdb59)
+![result](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/b73c8ddf-726c-46d0-b9b8-58bf0226bcc9)
 
+********* END-TO-END AUTOMATION TERMINAL REPORT ***********
+
+![otomasyon ss](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/33887f8d-4bc1-43f0-a6f9-767ff1b09f13)
