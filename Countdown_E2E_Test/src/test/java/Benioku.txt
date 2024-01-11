@@ -1,0 +1,2 @@
+Selenium-JUNIT5 ile oluşturulan otomasyon test çalışmasını başlatmadan önce
+gerisayım uygulamasının 3000 portu üzerinden çalıştırılması gerekmektedir. (Precondition)
