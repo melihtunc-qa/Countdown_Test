@@ -36,3 +36,4 @@ describe('Application Tests', () => {
     expect(wrapper.state('seconds')).toBe(0);
   });
 });
+
