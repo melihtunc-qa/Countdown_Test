@@ -2,12 +2,12 @@
 
 ******* TEST PLAN DOCUMENT *****
 
+
 ![plan](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/a4a76e75-947b-4c3b-a54a-8a9ceaa24829)
 
 ******** UNIT TESTS TERMINAL REPORT **********
 
 ![unit_son](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/14d561df-c2ae-428f-9bc2-92ab189ad7dc)
-
 
 ******* MANUEL TEST RESULTS ********************
 
