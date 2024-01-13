@@ -6,7 +6,7 @@
 
 ******** UNIT TESTS TERMINAL REPORT **********
 
-![UnitTests_result](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/6912d72f-5214-4588-adb8-eafce1d8dafb)
+![unit_son](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/14d561df-c2ae-428f-9bc2-92ab189ad7dc)
 
 
 ******* MANUEL TEST RESULTS ********************
@@ -16,3 +16,8 @@
 ********* END-TO-END AUTOMATION TERMINAL REPORT ***********
 
 ![otomasyon ss](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/33887f8d-4bc1-43f0-a6f9-767ff1b09f13)
+
+******** COMPATIBILITY TEST TERMINAL REPORT *************
+
+![compatibility](https://github.com/melihtunc-qa/Countdown_Test/assets/115929641/d69d9a96-a00e-4670-b76d-7a77349cdc37)
+
