@@ -1,23 +1,24 @@
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
+import org.junit.experimental.categories.Category;
+import org.junit.runners.MethodSorters;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.safari.SafariDriver;
+
+import java.sql.SQLOutput;
+
+@FixMethodOrder(MethodSorters.JVM)
 
 public class CountDown {
 
-    static EdgeOptions options= new EdgeOptions();
-    static WebDriver driver = new EdgeDriver(options);
+    static ChromeOptions options= new ChromeOptions();
+    static WebDriver driver = new ChromeDriver(options);
 
     @BeforeClass
     public static void getDriver() {
-
+        System.out.println(" CHROME BAŞLATILDI \n ");
         options.addArguments("--disable-notifications");
         driver.manage().window().maximize();
         driver.get("http://localhost:3000/");
@@ -117,6 +118,40 @@ public class CountDown {
         if (resetButton.isEnabled()) {
             System.out.println(" RESET Butonu , geri sayım resetlendikten sonra tıklanabilir durumda fakat beklendiği üzere inaktif ");
         }
+
+    }
+
+    @Test
+    @Category(FirefoxTests.class)
+    public void CrossBrowser_Test_Firefox() throws InterruptedException {
+
+        driver.quit();
+        driver=new FirefoxDriver();
+        options.addArguments("--disable-notifications");
+        driver.manage().window().maximize();
+        driver.get("http://localhost:3000/");
+
+        System.out.println(" FIREFOX BAŞLATILDI \n ");
+        Start_Button_Test();
+        Stop_Button_Test();
+        Reset_Button_Test();
+
+    }
+
+    @Test
+    @Category(EdgeTests.class)
+    public void CrossBrowser_Test_EdgeDriver() throws InterruptedException {
+
+        driver.quit();
+        driver=new EdgeDriver();
+        options.addArguments("--disable-notifications");
+        driver.manage().window().maximize();
+        driver.get("http://localhost:3000/");
+
+        System.out.println(" EDGE BROWSER BAŞLATILDI \n ");
+        Start_Button_Test();
+        Stop_Button_Test();
+        Reset_Button_Test();
 
     }
 
